@@ -1,1 +1,4 @@
-# LineerOlmayan-Regresyon
+# Sınıflandırma Modelleri
+## KNN Algoritması
+En yakın komşuluk algoritması olarak geçen bu algoritma. verinin en yakın komşularına bakarak veriyi sınıflandırma mantığına dayanmaktadır. Bu sınıflandırma işleminde verinin komşularına olan mesafeleri kontrol edilmektedir. Yani yeni verinin en yakın olduğu eleman hangi veri sınıfına dahil olduğuna bakılırak o veri sınıfına eklenmektedir.
+Bazen sadece en yakındaki veriyi kontrol etmek yetmeyebilir. Örneğin mavi dairenin en yakınında yeşil daire var ancak yakınlarda çok sayıda da sarı daire vardır. Böyle bir durumda o bölgede sarı daireler daha baskın olmaktadır. Bu sefer “k” yani en yakındaki kaç verinin kontrol edileceğine bakılarak sınıflandırma yapılır. Örneğin k=5 olsun, verinin en yakınındaki 5 veri kontrol edilerek hangi veri çoğunluktaysa o sınıfa dahil edilmektedir (5 rengin 3'ü sarı 2'si yeşil ,sarı gruba dahil edilir.).
